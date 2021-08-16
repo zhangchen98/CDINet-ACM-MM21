@@ -37,7 +37,7 @@ For all depth maps in training and testing datasets, we make a uniform adjustmen
 2. Download testing data from [[Link](https://pan.baidu.com/s/1PncdQcU5jptqYjfwJfBopA)], code: 0812.
 3. Download the parameters of whole model from 
 
-├── backbone
+├── backbone 
 
 ├── CDINet_test.py
 
@@ -85,7 +85,7 @@ You can find the saliency maps in "./test_maps".
 
 ```
 @inproceedings{Zhang2021CDINet, 
- 	  author = {Zhang, Chen and Cong, Runmin and Lin, Qinwei and Ma, Lin and Li Feng and Zhao, Yao and Kwong, Sam},   
+    author = {Zhang, Chen and Cong, Runmin and Lin, Qinwei and Ma, Lin and Li Feng and Zhao, Yao and Kwong, Sam},   
     title = {Cross-modality Discrepant Interaction Network for {RGB-D} Salient Object Detection},     
     booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},     
     year = {2021},
