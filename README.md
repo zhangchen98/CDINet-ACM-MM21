@@ -63,7 +63,7 @@ You can find the saved models and logs in "./CDINet_cpts".
 
 **Testing command**: `python CDINet_test.py --gpu_id xx` 
 
-You can find the saliency maps in "./test_maps".
+You can find the saliency maps in "./saliency_maps".
 
 
 
