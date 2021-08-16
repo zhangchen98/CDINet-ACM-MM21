@@ -37,7 +37,7 @@ test_datasets = ['DUT', 'NJU2K', 'NLPR', 'STERE', 'SSD', 'LFSD', 'RGBD135', 'SIP
 dataset_path = opt.test_path
 for dataset in test_datasets:
     print("Testing {} ...".format(dataset))
-    save_path = 'test_maps/' + dataset + '/'
+    save_path = 'saliency_maps/' + dataset + '/'
     if not os.path.exists(save_path):
         os.makedirs(save_path)
     image_root = dataset_path + dataset + '/RGB/'
