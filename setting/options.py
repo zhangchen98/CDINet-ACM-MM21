@@ -22,11 +22,11 @@ parser.add_argument('--load', type=str, default=None,
                     help='train from checkpoints')
 parser.add_argument('--gpu_id', type=str, default='6',
                     help='gpu')
-parser.add_argument('--rgb_root', type=str, default='../../RGBD_dataset/RGBD_for_train/RGB/',
+parser.add_argument('--rgb_root', type=str, default='../dataset/CDINet_train_data/RGB/',
                     help='the training rgb images root')
-parser.add_argument('--depth_root', type=str, default='../../RGBD_dataset/RGBD_for_train/depth/',
+parser.add_argument('--depth_root', type=str, default='../RGBD_dataset/CDINet_train_data/depth/',
                     help='the training depth images root')
-parser.add_argument('--gt_root', type=str, default='../../RGBD_dataset/RGBD_for_train/GT/',
+parser.add_argument('--gt_root', type=str, default='../RGBD_dataset/CDINet_train_data/GT/',
                     help='the training gt images root')
 parser.add_argument('--save_path', type=str, default='./CDINet_cpts/', help='the path to save models and logs')
 # test set
