@@ -28,12 +28,6 @@ parser.add_argument('--depth_root', type=str, default='../../RGBD_dataset/RGBD_f
                     help='the training depth images root')
 parser.add_argument('--gt_root', type=str, default='../../RGBD_dataset/RGBD_for_train/GT/',
                     help='the training gt images root')
-parser.add_argument('--test_rgb_root', type=str, default='../../RGBD_dataset/test_in_train/RGB/',
-                    help='the test rgb images root in training')
-parser.add_argument('--test_depth_root', type=str, default='../../RGBD_dataset/test_in_train/depth/',
-                    help='the test depth images root in training')
-parser.add_argument('--test_gt_root', type=str, default='../../RGBD_dataset/test_in_train/GT/',
-                    help='the test gt images root in training')
 parser.add_argument('--save_path', type=str, default='./CDINet_cpts/', help='the path to save models and logs')
 # test set
 parser.add_argument('--testsize', type=int, default=256,
