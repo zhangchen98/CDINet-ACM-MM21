@@ -31,13 +31,15 @@ We also provide ".yaml" files for conda environment configuration, you can downl
 
 ## Data Preprocessing
 
-For all depth maps in training and testing datasets, we make a uniform adjustment so that  the foreground have higher value than the background, it is very important. Please follow the tips to download the provided processed datasets and model parameters:
+For all depth maps in training and testing datasets, we make a uniform adjustment so that  the foreground have higher value than the background, it is very important. Please follow the tips to download the provided processed datasets and pre-trained model:
 
 1. Download training data  from [[Link](https://pan.baidu.com/s/1jm-B10GfOinp9G17VsxH_A)], code: 0812.
 2. Download testing data from [[Link](https://pan.baidu.com/s/1PncdQcU5jptqYjfwJfBopA)], code: 0812.
 3. Download the parameters of whole model from  [[Link](https://pan.baidu.com/s/1b9mtXawoTktO7mmWdS1ccA)], code: 0812.
 
 ├── backbone 
+
+├── CDINet.pth
 
 ├── CDINet_test.py
 
