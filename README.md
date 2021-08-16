@@ -1,5 +1,5 @@
 <div align=center>
-![Brand](https://2021.acmmm.org/img/acmmm2021_logo.1f9d3343.png)
+<img src = https://2021.acmmm.org/img/acmmm2021_logo.1f9d3343.png>
 </div>
 
 ## CDINet
