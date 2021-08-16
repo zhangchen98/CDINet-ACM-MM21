@@ -28,7 +28,7 @@ elif gpu_num > 1:
     print("Use multiple GPUs-", opt.gpu_id)
     model = CDINet()
     model = torch.nn.DataParallel(model)
-model.load_state_dict(torch.load('CDINet_cpts/CDINet.pth'), False)
+model.load_state_dict(torch.load(opt.test_model), False)
 
 model.cuda()
 model.eval()
