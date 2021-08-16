@@ -24,17 +24,17 @@ parser.add_argument('--gpu_id', type=str, default='6',
                     help='gpu')
 parser.add_argument('--rgb_root', type=str, default='../dataset/CDINet_train_data/RGB/',
                     help='the training rgb images root')
-parser.add_argument('--depth_root', type=str, default='../RGBD_dataset/CDINet_train_data/depth/',
+parser.add_argument('--depth_root', type=str, default='../dataset/CDINet_train_data/depth/',
                     help='the training depth images root')
-parser.add_argument('--gt_root', type=str, default='../RGBD_dataset/CDINet_train_data/GT/',
+parser.add_argument('--gt_root', type=str, default='../dataset/CDINet_train_data/GT/',
                     help='the training gt images root')
 parser.add_argument('--save_path', type=str, default='./CDINet_cpts/', help='the path to save models and logs')
-
 # test set
 parser.add_argument('--testsize', type=int, default=256,
                     help='testing image size')
-parser.add_argument('--test_path', type=str, default='../../RGBD_dataset/RGBD_for_test/',
+parser.add_argument('--test_path', type=str, default='../dataset/CDINet_test_data/',
                     help='test dataset path')
 parser.add_argument('--test_model', type=str, default='CDINet.pth',
                     help='load the model for testing')
+
 opt = parser.parse_args()
