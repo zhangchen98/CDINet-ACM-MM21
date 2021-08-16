@@ -29,6 +29,7 @@ parser.add_argument('--depth_root', type=str, default='../RGBD_dataset/CDINet_tr
 parser.add_argument('--gt_root', type=str, default='../RGBD_dataset/CDINet_train_data/GT/',
                     help='the training gt images root')
 parser.add_argument('--save_path', type=str, default='./CDINet_cpts/', help='the path to save models and logs')
+
 # test set
 parser.add_argument('--testsize', type=int, default=256,
                     help='testing image size')
