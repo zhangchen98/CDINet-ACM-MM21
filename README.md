@@ -5,6 +5,7 @@
 ## CDINet
 
 This is a PyTorch implementation of "Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection" accepted by ACM MM 2020 (poster).
+
 Arxiv version: https://arxiv.org/pdf/2108.01971.pdf
 
 ## Network
@@ -12,7 +13,7 @@ Arxiv version: https://arxiv.org/pdf/2108.01971.pdf
 
 ## Requirement
 
-To ensure reproducibility of the model, pleasure configure the environment for the given version:
+To ensure reproducibility of the model, pleasure configure the environment according to the given version:
 
 - python 3.7.10
 - pytorch 1.8.0
@@ -24,7 +25,7 @@ To ensure reproducibility of the model, pleasure configure the environment for t
 
 
 
-We also provide ".yaml" files for conda environment configuration, you can download it from [[Link](链接：https://pan.baidu.com/s/1o7yo6_86K1Ey6ZHhpiwRyg .)] , code: 642h, then use `conda env create -f CDINet.yaml` to create a required environment.
+We also provide ".yaml" files for conda environment configuration, you can download it from [[Link]](https://pan.baidu.com/s/1o7yo6_86K1Ey6ZHhpiwRyg), code: 642h, then use `conda env create -f CDINet.yaml` to create a required environment.
 
 
 
@@ -34,16 +35,24 @@ For all depth maps in training and testing datasets, we make a uniform adjustmen
 
 1. Download training data  from [[Link](https://pan.baidu.com/s/1jm-B10GfOinp9G17VsxH_A)], code: 0812.
 2. Download testing data from [[Link](https://pan.baidu.com/s/1PncdQcU5jptqYjfwJfBopA)], code: 0812.
-4. Download the parameters of whole model from 
+3. Download the parameters of whole model from 
 
 ├── backbone
+
 ├── CDINet_test.py
+
 ├── CDINet_train.py
+
 ├── dataset
+
 │   ├── CDINet_test_data
+
 │   └── CDINet_train_data
+
 ├── model
+
 ├── modules
+
 └── setting
 
 ## Training and Testing
@@ -51,7 +60,6 @@ For all depth maps in training and testing datasets, we make a uniform adjustmen
 **Training command**: `python CDINet_train.py --gpu_id xx  --batchsize xx`
 
 You can find the saved models and logs in "./CDINet_cpts".
-
 
 
 **Testing command**: `python CDINet_test.py --gpu_id xx` 
@@ -65,19 +73,19 @@ You can find the saliency maps in "./test_maps".
 1. **Qualitative results**: we provide the saliency maps, you can download them from [[Link](https://pan.baidu.com/s/1yDlwuOgqTKkO3LDXqyfQ2w)], code: 0812.
 2. **Quantitative results**: 
 
+
 |              |  NLPR  |  NJUD  |  DUT   | STEREO |  LFSD  |
 | :----------: | :----: | :----: | :----: | :----: | :----: |
-|  $F_{max}$   | 0.9162 | 0.9215 | 0.9372 | 0.9033 | 0.8746 |
-| $S_{\alpha}$ | 0.9273 | 0.9188 | 0.9274 | 0.9055 | 0.8703 |
-|    $MAE$     | 0.0240 | 0.9354 | 0.0302 | 0.0410 | 0.0631 |
-
+| ![](https://latex.codecogs.com/svg.image?F_{max}) | 0.9162 | 0.9215 | 0.9372 | 0.9033 | 0.8746 |
+| ![](https://latex.codecogs.com/svg.image?S_{\alpha}) | 0.9273 | 0.9188 | 0.9274 | 0.9055 | 0.8703 |
+| ![](https://latex.codecogs.com/svg.image?MAE)   | 0.0240 | 0.9354 | 0.0302 | 0.0410 | 0.0631 |
 
 
 ## Bibtex
 
 ```
 @inproceedings{Zhang2021CDINet, 
- 	author = {Zhang, Chen and Cong, Runmin and Lin, Qinwei and Ma, Lin and Li Feng and Zhao, Yao and Kwong, Sam},   
+ 	  author = {Zhang, Chen and Cong, Runmin and Lin, Qinwei and Ma, Lin and Li Feng and Zhao, Yao and Kwong, Sam},   
     title = {Cross-modality Discrepant Interaction Network for {RGB-D} Salient Object Detection},     
     booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},     
     year = {2021},
