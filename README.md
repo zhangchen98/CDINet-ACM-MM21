@@ -10,7 +10,7 @@ Arxiv version: https://arxiv.org/pdf/2108.01971.pdf
 ## Network
 
 <div align=center>
-<img src = C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210811213152444.png>
+<img src = (https://user-images.githubusercontent.com/45169768/129518054-55acd62d-4434-485f-9124-bd3bfff12c6d.png>
 </div>
 
 
