@@ -5,14 +5,14 @@
 ## CDINet
 
 This is a PyTorch implementation of "Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection" accepted by ACM MM 2020 (poster).
-
 Arxiv version: https://arxiv.org/pdf/2108.01971.pdf
-
-
 
 ## Network
 
-![image-20210811213152444](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210811213152444.png)
+<div align=center>
+<img src = C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20210811213152444.png>
+</div>
+
 
 
 
