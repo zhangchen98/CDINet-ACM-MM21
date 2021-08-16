@@ -8,13 +8,7 @@ This is a PyTorch implementation of "Cross-modality Discrepant Interaction Netwo
 Arxiv version: https://arxiv.org/pdf/2108.01971.pdf
 
 ## Network
-
-<div align=center>
-<img src = (https://user-images.githubusercontent.com/45169768/129518054-55acd62d-4434-485f-9124-bd3bfff12c6d.png>
-</div>
-
-
-
+![image](https://user-images.githubusercontent.com/45169768/129518120-d6ffaf4c-896b-4030-8b48-fc586998b417.png)
 
 ## Requirement
 
