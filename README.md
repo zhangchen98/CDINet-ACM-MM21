@@ -37,25 +37,22 @@ For all depth maps in training and testing datasets, we make a uniform adjustmen
 2. Download testing data from [[Link](https://pan.baidu.com/s/1PncdQcU5jptqYjfwJfBopA)], code: 0812.
 3. Download the parameters of whole model from  [[Link](https://pan.baidu.com/s/1b9mtXawoTktO7mmWdS1ccA)], code: 0812.
 
+```python
 ├── backbone 
-
 ├── CDINet.pth
-
 ├── CDINet_test.py
-
 ├── CDINet_train.py
-
 ├── dataset
-
 │   ├── CDINet_test_data
-
 │   └── CDINet_train_data
-
 ├── model
-
 ├── modules
-
 └── setting
+```
+
+
+
+
 
 ## Training and Testing
 
