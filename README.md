@@ -15,7 +15,7 @@ Arxiv version: https://arxiv.org/pdf/2108.01971.pdf
 
 ## Requirement
 
-To ensure reproducibility of the model, pleasure configure the environment according to the given version:
+Pleasure configure the environment according to the given version:
 
 - python 3.7.10
 - pytorch 1.8.0
@@ -33,7 +33,7 @@ We also provide ".yaml" files for conda environment configuration, you can downl
 
 ## Data Preprocessing
 
-For all depth maps in training and testing datasets, we make a uniform adjustment so that  the foreground have higher value than the background, it is very important. Please follow the tips to download the provided processed datasets and pre-trained model:
+For all depth maps in training and testing datasets, we make a uniform adjustment so that  the foreground have higher value than the background, it is very important. Please follow the tips to download the processed datasets and pre-trained model:
 
 1. Download training data  from [[Link](https://pan.baidu.com/s/1jm-B10GfOinp9G17VsxH_A)], code: 0812.
 2. Download testing data from [[Link](https://pan.baidu.com/s/1PncdQcU5jptqYjfwJfBopA)], code: 0812.
