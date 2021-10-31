@@ -4,7 +4,7 @@
 
 ## CDINet
 
-This is a PyTorch implementation of "Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection" accepted by ACM MM 2020 (poster).
+This is a PyTorch implementation of "Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection" accepted by ACM MM 2021 (poster).
 
 Paper: https://dl.acm.org/doi/pdf/10.1145/3474085.3475364. 
 
