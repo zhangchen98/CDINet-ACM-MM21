@@ -37,7 +37,7 @@ For all depth maps in training and testing datasets, we make a uniform adjustmen
 
 1. Download training data  from [[Link](https://pan.baidu.com/s/1jm-B10GfOinp9G17VsxH_A)], code: 0812.
 2. Download testing data from [[Link](https://pan.baidu.com/s/1PncdQcU5jptqYjfwJfBopA)], code: 0812.
-3. Download the parameters of whole model from  [[Link](https://pan.baidu.com/s/1b9mtXawoTktO7mmWdS1ccA)], code: 0812.
+3. Download the parameters of whole model from  [[Link](https://pan.baidu.com/s/1VeGAIR30jQoWvZHDVxeTow)], code: 0812.
 
 ```python
 ├── backbone 
